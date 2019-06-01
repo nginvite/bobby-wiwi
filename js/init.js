@@ -3,7 +3,7 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    
+
     window.onscroll = function () {
       scrollFunction()
     };
@@ -33,27 +33,27 @@
       return addedClass;
     });
 
-    //Get height: 
-    var w = window,
-      d = document,
-      e = d.documentElement,
-      g = d.getElementsByTagName('body')[0],
-      x = w.innerWidth || e.clientWidth || g.clientWidth,
-      y = w.innerHeight || e.clientHeight || g.clientHeight;
+    // //Get height: 
+    // var w = window,
+    //   d = document,
+    //   e = d.documentElement,
+    //   g = d.getElementsByTagName('body')[0],
+    //   x = w.innerWidth || e.clientWidth || g.clientWidth,
+    //   y = w.innerHeight || e.clientHeight || g.clientHeight;
 
-    function t() {
-      $(".parallax-container").css('height', y);
-    }
+    // function t() {
+    //   $(".parallax-container").css('height', y);
+    // }
 
-    window.onload = t;
-    window.onresize = t;
+    // window.onload = t;
+    // window.onresize = t;
 
     $('.materialboxed').materialbox();
 
-  
+
     // Or with jQuery
-  
-    $(document).ready(function(){
+
+    $(document).ready(function () {
       $('.slider').slider();
     });
 
